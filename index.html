@@ -1,4 +1,36 @@
-// -------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>DICEE GAME</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>REFRESH ME...</h2>
+        <div class="dice">
+            
+            <h1 id="p1">PLAYER 1</h1>
+            <img class="img1" src="images/dice6.png">
+
+        </div>
+        <div class="dice">
+            
+            <h1 id="p2">PLAYER 2</h1>
+            <img class="img1" src="images/dice6.png">
+        </div>
+    </div>
+
+</body>
+<footer>
+    www 🎲 Dicee Game 🎲 com
+  </footer>
+  <script>
+      // -------------------
 var name1=prompt("Enter Name of Player 1");
 name1=name1.toUpperCase();
 var name2=prompt("Enter Name of Player 2")
@@ -33,3 +65,5 @@ else if (randomNumber2 > randomNumber1) {
 else {
   document.querySelector("h2").innerHTML = "Draw!";
 }
+  </script>
+</html>
